@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
+html {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 body {
   margin: 0;
+  padding: 0;
+  text-align: center;
   font-family: "Lato", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,6 +23,6 @@ code {
 .screen-background {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 16px 0;
+  width: 100%;
 }
+

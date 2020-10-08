@@ -6,6 +6,8 @@ import ExperienceScreen from "./views/Experience/Experience";
 import ProjectsScreen from "./views/Projects/Projects";
 
 import Navbar from "./components/Navbar/Navbar";
+import FeatureAScreen from "./views/FeatureA/FeatureA";
+import FeatureBScreen from "./views/FeatureB/FeatureB";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path="/feature-alpha" component={FeatureAScreen} />
+          <Route path="/feature-beta" component={FeatureBScreen} />
           <Route path="/experience" component={ExperienceScreen} />
           <Route path="/projects" component={ProjectsScreen} />
           <Route path={["/about", "/"]} component={AboutScreen} />

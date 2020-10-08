@@ -1,0 +1,14 @@
+.hovering {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+}
+.nothovering {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+img {
+    width: 10%;
+}
+body {
+    text-align: center;
+}

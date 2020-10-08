@@ -1,7 +1,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 100%;
   align-items: center;
   margin: 16px 0px;
 }
@@ -23,6 +23,8 @@
 }
 
 .nav-background {
+  width: 100%;
+  text-align: center;
 }
 
 .nav-item {
